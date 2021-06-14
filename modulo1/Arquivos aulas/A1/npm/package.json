@@ -1,0 +1,21 @@
+{
+  "name": "teste",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm install moment --save"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "test",
+    "/",
+    "a1"
+  ],
+  "author": "Felipe",
+  "license": "ISC",
+  "dependencies": {}
+}
