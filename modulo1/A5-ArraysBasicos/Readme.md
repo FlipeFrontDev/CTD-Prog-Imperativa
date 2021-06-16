@@ -2,14 +2,14 @@
 
 
 
-Micro-desafios  das aulas sobre **arrays básicos**.
+### **Micro-desafios**
+
+Desafios sobre **arrays** do <u>dia 07/06/2021</u> conforme abaixo:
 
 
 
-#### Organização do diretório:
-
-- Exercícios referentes às aulas assíncronas e síncronas.
+#### Microdesafio 1 - verificaLinguagem:
 
 
 
-Todas as atividades deste bloco nomeadas como micro-desafios estão armazenadas aqui.
+**Objetivo:** Criar um array que contém produtos de lista de compras e exibir no console o resultado das funções  join, pop, oush, shift e unshift. Também descrever o que cada função realiza.
