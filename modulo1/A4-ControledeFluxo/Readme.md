@@ -28,7 +28,7 @@ Desafios sobre **condicionais** do <u>dia 02/06/2021</u> conforme abaixo:
 
 
 
-**Objetivo:**  Verifica se os passageiros de um parque de diversão podem subir em um brinquedo de acordo com as condições abaixo:
+**Objetivo:**  verifica se os passageiros de um parque de diversão podem subir em um brinquedo de acordo com as condições abaixo:
 
 
 
@@ -44,7 +44,7 @@ Desafios sobre **condicionais** do <u>dia 02/06/2021</u> conforme abaixo:
 
 
 
-**Objetivo:**  Modifica a função de modo a emitir uma mensagem conforme condições abaixo:
+**Objetivo:**  modifica a função de modo a emitir uma mensagem conforme condições abaixo:
 
 
 
