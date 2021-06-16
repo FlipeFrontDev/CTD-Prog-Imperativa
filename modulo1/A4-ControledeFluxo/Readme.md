@@ -4,7 +4,7 @@
 
 ### **Micro-desafios**
 
-Desafios sobre **Funções** do <u>dia 02/06/2021</u> conforme abaixo:
+Desafios sobre **condicionais** do <u>dia 02/06/2021</u> conforme abaixo:
 
 
 
