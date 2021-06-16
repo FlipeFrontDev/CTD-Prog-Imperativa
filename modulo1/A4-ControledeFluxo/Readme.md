@@ -16,7 +16,7 @@ Desafios sobre **condicionais** do <u>dia 02/06/2021</u> conforme abaixo:
 
 
 
-**Objetivo:**  apresentar a mensagem "Estou aprendendo " mensagem no console caso a variável linguagem possua o valor "javascript"
+**Objetivo:**  apresentar a mensagem "Estou aprendendo " mensagem no console caso a variável linguagem possua o valor "javascript".
 
 
 
@@ -50,4 +50,4 @@ Desafios sobre **condicionais** do <u>dia 02/06/2021</u> conforme abaixo:
 
 * Em caso de autorização, exiba a mensagem: “Acesso autorizado” ou “Acesso autorizado somente com acompanhante”;
 
-* Em caso de impedimento, exiba a mensagem: “Acesso negado.”
+* Em caso de impedimento, exiba a mensagem: “Acesso negado”.
