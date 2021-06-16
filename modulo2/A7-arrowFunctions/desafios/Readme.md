@@ -4,11 +4,11 @@
 
 ### **Micro-desafios**
 
-Desafios sobre **loops** do <u>dia 09/06/2021</u> conforme abaixo:
+Desafios sobre **funções avançadas** do <u>dia 14/06/2021</u> conforme abaixo:
 
 
 
-#### Microdesafio  - Transformando Funções:
+#### Microdesafio1  - Transformando Funções:
 
 
 
@@ -20,16 +20,8 @@ Desafios sobre **loops** do <u>dia 09/06/2021</u> conforme abaixo:
 
 
 
-#### Microdesafio 2 - contarImpares:
+#### Microdesafio 2 - Função  acaoCarro():
 
 
 
-**Objetivo:** Crie um loop **for** de 1 a 10, em que exiba no console apenas o valor das repetições de números ímpares. Dica: A ideia é que nas repetições ímpares de 0 ao 10 (1,3,5,7,9) sejam mostrados os números das repetições no console.
-
-
-
-#### Microdesafio 3 - Tabuada:
-
-
-
-**Objetivo:** Crie uma tabuada utilizando o **for**. Dica: Para essa tarefa você irá precisar utilizar dois loops (for).
+**Objetivo:** Crie uma função **acaoCarro()**, que receberá uma callback como parâmetro. Após isso, crie duas funções: **andar()** – deve **exibir** uma **mensagem** dizendo que **o carro está andando** – e **parar()** – deve **exibir** uma **mensagem** dizendo que **o carro parou**. **Execute** ambas **as ações utilizando** a função **acaoCarro()**, passando suas ações como callbacks.
