@@ -2,7 +2,7 @@
 
 
 
-**Micro-desafios** 
+### **Micro-desafios**
 
 
 
@@ -10,7 +10,7 @@ Desafios sobre **Funções** do <u>dia 31/05/2021</u> conforme abaixo:
 
 
 
-**Microdesafio 1:** Função calculaImc():
+#### **Microdesafio 1:** Função calculaImc():
 
 
 
@@ -18,7 +18,7 @@ Desafios sobre **Funções** do <u>dia 31/05/2021</u> conforme abaixo:
 
 
 
-**Microdesafio 2:** calculadora():
+#### **Microdesafio 2:** calculadora():
 
 
 
@@ -26,7 +26,7 @@ Desafios sobre **Funções** do <u>dia 31/05/2021</u> conforme abaixo:
 
 
 
-**Microdesafios 3 e 4:**  funções fazerGol() e hatTrick():
+#### **Microdesafios 3 e 4:**  funções fazerGol() e hatTrick():
 
 
 
