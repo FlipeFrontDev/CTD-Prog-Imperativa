@@ -8,11 +8,15 @@ Desafios sobre **loops** do <u>dia 09/06/2021</u> conforme abaixo:
 
 
 
-#### Microdesafio 1 - repetirPapagaio:
+#### Microdesafio  - Transformando Funções:
 
 
 
-**Objetivo:** criar um loop utilizando **for** que se repita 5 vezes. Dentro de cada repetição se deve mostrar no console a mensagem **“Olá mundo”.**
+**Objetivo:** converter as funções abaixo em funções arrow:
+
+
+
+![img](https://i.imgur.com/6cHiDSd.png)
 
 
 
