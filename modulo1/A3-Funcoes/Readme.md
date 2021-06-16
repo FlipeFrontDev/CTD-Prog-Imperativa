@@ -34,7 +34,7 @@ Desafios sobre **Funções** do <u>dia 31/05/2021</u> conforme abaixo:
 
 ​		
 
-![image-20210616153654701](C:\Users\Felipe\AppData\Roaming\Typora\typora-user-images\image-20210616153654701.png)
+![image-20210616153654701](https://i.imgur.com/k1sRrvt.png)
 
 
 
