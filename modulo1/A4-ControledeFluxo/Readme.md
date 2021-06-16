@@ -12,7 +12,7 @@ Desafios sobre **condicionais** do <u>dia 02/06/2021</u> conforme abaixo:
 
 
 
-#### **Microdesafio 1:** Função verificaLinguagem()
+#### **Microdesafio 1:** verificaLinguagem:
 
 
 
@@ -24,7 +24,7 @@ Desafios sobre **condicionais** do <u>dia 02/06/2021</u> conforme abaixo:
 
 
 
-#### Microdesafio 1: Função podeSubir()
+#### Microdesafio 1: podeSubir:
 
 
 
@@ -40,7 +40,7 @@ Desafios sobre **condicionais** do <u>dia 02/06/2021</u> conforme abaixo:
 
 
 
-#### **Microdesafio 2:** Alteração da função podeSubir()
+#### **Microdesafio 2:** Alteração do exercício podeSubir:
 
 
 
