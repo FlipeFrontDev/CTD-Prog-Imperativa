@@ -21,7 +21,7 @@ let fazerGol = function() {
   return 'GOL!!!!!' + '\nGols do ' + nomeJogador + ': ' + golsJogador + ' Valor de mercado: ' + valorEmDolares.toLocaleString('en', {style: 'currency', currency: 'USD'});
 }
 
-/*Imprime resultado da primeira função do jeito longo*/
+/*Imprime resultado da primeira função*/
 
 console.log(fazerGol());
 console.log(fazerGol());
