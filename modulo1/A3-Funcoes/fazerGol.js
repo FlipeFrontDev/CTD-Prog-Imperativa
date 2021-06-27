@@ -16,6 +16,8 @@ let fazerGol = function() {
 
   valorEmDolares += 10000;
 
+  //Adicionado método toLocaleString para converter o valor em dólares, como pede o exercício
+
   return 'GOL!!!!!' + '\nGols do ' + nomeJogador + ': ' + golsJogador + ' Valor de mercado: ' + valorEmDolares.toLocaleString('en', {style: 'currency', currency: 'USD'});
 }
 
@@ -44,6 +46,8 @@ let hatTrick = function() {
   //Acrescenta 10% a mais por ano (ou seja, 10% a mais no total de gols) em comparação com o valor atual;
 
   valorEmDolares += (valorEmDolares * 0.1);
+
+  //Adicionado método toLocaleString para converter o valor em dólares, como pede o exercício
 
   return  '\n-------------------------------------------------------------------\n' +
           '\nHATRICK: ' + '\n\nValor do jogador ' + nomeJogador + ': ' +   valorEmDolares.toLocaleString('en', {style: 'currency', currency: 'USD'});
