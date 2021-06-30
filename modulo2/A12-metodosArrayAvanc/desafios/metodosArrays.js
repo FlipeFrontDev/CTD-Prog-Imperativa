@@ -2,7 +2,7 @@
 
 const pares =[2,4,6,8,10,12,14,16,18,20];
 
-const impares = pares.map(num => {return num -= 1;});
+const impares = pares.map(num => num -= 1);
 
 console.log(impares);
 
@@ -11,7 +11,7 @@ console.log(impares);
 
 const nomes = ['Felipe', 'João', 'Maria', 'Marta', 'Marluci', 'Ana', 'Maria'];
 
-const filtro = nomes.filter(nome => {return nome == 'Maria';});
+const filtro = nomes.filter(nome => nome == 'Maria');
 
 console.log(filtro);
 
@@ -20,7 +20,7 @@ console.log(filtro);
 
 const numeros =[2,4,6,8,10,12,14,16,18,20];
 
-const formatados = numeros.reduce((acumulador, num) => {return `${acumulador} - ${num}`;});
+const formatados = numeros.reduce((acumulador, num) => `${acumulador} - ${num}`);
 
 console.log(formatados);
 
@@ -29,6 +29,6 @@ console.log(formatados);
 
 const animais = ['Elefante', 'Gato', 'Arara', 'Coala'];
 
-const lista = animais.forEach(animal => {console.log(`O animal é ${animal}`);});
+const lista = animais.forEach(animal => console.log(`O animal é ${animal}`));
 
 console.log(lista);
