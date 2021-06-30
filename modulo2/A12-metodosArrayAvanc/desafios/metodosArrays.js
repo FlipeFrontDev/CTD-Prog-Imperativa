@@ -2,7 +2,7 @@
 
 const pares =[2,4,6,8,10,12,14,16,18,20];
 
-const impares = pares.map((num) => { return num -= 1;});
+const impares = pares.map(num => {return num -= 1;});
 
 console.log(impares);
 
