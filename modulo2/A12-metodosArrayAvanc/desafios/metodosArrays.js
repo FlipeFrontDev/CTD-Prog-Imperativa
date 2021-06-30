@@ -11,7 +11,7 @@ console.log(impares);
 
 const nomes = ['Felipe', 'João', 'Maria', 'Marta', 'Marluci', 'Ana', 'Maria'];
 
-const filtro = nomes.filter((nome) => {return nome == 'Maria';});
+const filtro = nomes.filter(nome => {return nome == 'Maria';});
 
 console.log(filtro);
 
@@ -29,6 +29,6 @@ console.log(formatados);
 
 const animais = ['Elefante', 'Gato', 'Arara', 'Coala'];
 
-const lista = animais.forEach((animal) => {console.log(`O animal é ${animal}`);});
+const lista = animais.forEach(animal => {console.log(`O animal é ${animal}`);});
 
 console.log(lista);
