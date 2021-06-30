@@ -1,4 +1,5 @@
 /*Praticando POO*/
+/*Estou à disposição para dúvidas e sugestões pois são bem-vindas!*/
 
 //Definindo objeto genérico
 
