@@ -46,4 +46,4 @@ console.log(consulta(controle, 'arroz', 100));
 console.log('\n6 ------------\n');
 
 const lucroLiquido = (funcao, desc) => {return 'LUCRO LIQUIDO: ' + (funcao(controle) * (1-(desc/100))).toLocaleString('pt-BR',{style: 'currency', currency: 'BRL'})};
-console.log(lucroLiquido(lucro, 45));
+console.log(lucroLiquido(lucroBruto, 45));
