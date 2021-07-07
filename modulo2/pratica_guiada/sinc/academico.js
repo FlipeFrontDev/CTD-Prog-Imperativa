@@ -34,7 +34,7 @@ console.table(curso.listaEstudantes);
 
 console.log('----- ADD ALUNO ---------------');
 
-console.log(new modelo.quorum('Marcelo', 3, [8,8,9,8]));
+console.log(curso.adicionar(new modelo.quorum('Marcelo', 3, [8,8,9,8])));
 console.log(curso.listaEstudantes[0].addFaltas());
 
 /*5*/
