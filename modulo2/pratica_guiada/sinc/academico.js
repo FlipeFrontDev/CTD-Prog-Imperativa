@@ -14,7 +14,7 @@ let curso =
                                       (aluno.calcularMedia() > this.notaAprovacao) && (aluno.faltas = this.faltasMax + (this.faltasMax * 0.1)) ? true : false;
                           return ({nome: aluno.nome, situacao: sit})})},
 
-   adicionar: function(aluno) {this.listaEstudantes.push(aluno); return this.listaEstudantes},
+   adicionar: function(nome, faltas, notas) {this.listaEstudantes.push(new modelo.quorum(nome,faltas, notas)); return this.listaEstudantes},
    situacao: function(nome) {let aluno = this.listaEstudantes.find(item => {return item.nome == nome ? true : false});
                             return (aluno.calcularMedia() >= this.notaAprovacao) && (aluno.faltas < this.faltasMax) ? true :
                             (aluno.calcularMedia() > this.notaAprovacao) && (aluno.faltas = this.faltasMax + (this.faltasMax * 0.1)) ? true : false;},
@@ -34,7 +34,7 @@ console.table(curso.listaEstudantes);
 
 console.log('----- ADD ALUNO ---------------');
 
-console.log(curso.adicionar(new modelo.quorum('Frederico', 3, [8,8,9,8])));
+console.log(curso.adicionar('Frederico', 3, [8,8,9,8]));
 console.log(curso.listaEstudantes[0].addFaltas());
 
 /*5*/
