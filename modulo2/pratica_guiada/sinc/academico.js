@@ -9,42 +9,53 @@ let curso =
    notaAprovacao: 7,
    faltasMax: 5, 
    listaEstudantes: lista.listaAlunos,
-   relatorio: function () {return this.listaEstudantes.map(aluno =>
-                          {let sit =  (aluno.calcularMedia() >= this.notaAprovacao) && (aluno.faltas < this.faltasMax) ? true :
-                                      (aluno.calcularMedia() > this.notaAprovacao) && (aluno.faltas = this.faltasMax + (this.faltasMax * 0.1)) ? true : false;
-                          return ({nome: aluno.nome, situacao: sit})})},
 
-   adicionar: function(nome, faltas, notas) {this.listaEstudantes.push(new modelo.quorum(nome,faltas, notas)); return this.listaEstudantes},
+   relatorio: function () {return this.listaEstudantes.map(aluno =>
+                          
+                          {let sit =  (aluno.calcularMedia() >= this.notaAprovacao) && (aluno.faltas < this.faltasMax) ? true :
+                                      (aluno.calcularMedia() > this.notaAprovacao) && (aluno.faltas = this.faltasMax * 1.1) ? true : false;
+                          
+                                      return ({nome: aluno.nome, media: aluno.calcularMedia().toFixed(2), faltas: aluno.faltas, situacao: sit})})},
+
+   adicionar: function(nome, faltas, notas) {this.listaEstudantes.push(new modelo.quorum(nome,faltas, notas)); return console.table(this.listaEstudantes)},
+   
    situacao: function(nome) {let aluno = this.listaEstudantes.find(item => {return item.nome == nome ? true : false});
-                            return (aluno.calcularMedia() >= this.notaAprovacao) && (aluno.faltas < this.faltasMax) ? true :
-                            (aluno.calcularMedia() > this.notaAprovacao) && (aluno.faltas = this.faltasMax + (this.faltasMax * 0.1)) ? true : false;},
+                            
+                            return (aluno.calcularMedia() >= this.notaAprovacao) && (aluno.faltas < this.faltasMax) ?
+                            
+                            `Aluno: ${aluno.nome} Situação: ${true}` :
+                            
+                            (aluno.calcularMedia() > this.notaAprovacao) && (aluno.faltas = this.faltasMax * 1.1) ? true : false;},
     
 };
 
 /*2*/
-console.log('----- CALCULAR MÉDIA ---------------');
-console.log(curso.listaEstudantes[0].calcularMedia());
+console.log('\n----- CALCULAR MÉDIA ESPECIFICA---------------\n');
+console.log(`ALUNO: ${curso.listaEstudantes[0].nome} - MÉDIA: ${curso.listaEstudantes[0].calcularMedia().toFixed(2)}`);
 
 /*3*/
 
-console.log('----- CRIAR LISTA DE ESTUDANTES ---------------');
+console.log('\n----- CRIAR LISTA DE ESTUDANTES ---------------\n');
 console.table(curso.listaEstudantes);
 
 /*4*/
 
-console.log('----- ADD ALUNO ---------------');
+console.log('\n----- ADD ALUNO ---------------\n');
 
 console.log(curso.adicionar('Frederico', 3, [8,8,9,8]));
-console.log(curso.listaEstudantes[0].addFaltas());
+
+console.log('\n------ ADD FALTA --------------\n');
+
+console.log(`ALUNO: ${curso.listaEstudantes[0].nome} - FALTAS: ${curso.listaEstudantes[0].addFaltas()}`);
 
 /*5*/
 
-console.log('----- GERANDO SITUAÇÃO ESPECIFICA -----');
+console.log('\n----- GERANDO SITUAÇÃO ESPECIFICA -----\n');
 
 console.log(curso.situacao('Fernando'));
 
 /*6*/
 
-console.log('----- GERANDO SITUAÇÕES ---------------');
+console.log('\n----- GERANDO SITUAÇÕES ---------------\n');
 
 console.table(curso.relatorio());
