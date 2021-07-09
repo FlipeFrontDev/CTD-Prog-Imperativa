@@ -61,8 +61,3 @@ console.log(curso.situacao('Fernando'));
 console.log('\n----- GERANDO SITUAÇÕES ---------------\n');
 
 console.table(curso.relatorio());
-
-/*Em módulos, usar index.js como nome - pois o JS faz indexação de arquivos*/
-/*Refazer - requisitando cada parte do programa principal em outros módulos*/
-/*É possível requisitar arquivos de nomes diferentes da mesma pasta, sento um proncipal: index.js, e outros auxiliares: nomes especificos dos recursos?*/
-/*Definir construtor para curso e testar instanciação com atributos e métodos*/
