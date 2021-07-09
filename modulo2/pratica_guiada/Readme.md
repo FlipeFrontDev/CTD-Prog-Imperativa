@@ -1,6 +1,6 @@
 # Readme
 
-O exercicio foi resolvido de forma completa <u>no mesmo dia em que o exercicio foi apresentado aos alunos</u> - **05/07/2021**. Isto pode ser verificado pelo histórico: **[aqui.](https://github.com/FlipeFrontDev/CTD-Prog-Imperativa/commit/f16c698584e5285eddc05c3aa0ecd152056aa4ca#diff-5c6b342dd0810527be19f4571edd70b276253933595e2f8e23377cafe89d082d)**
+Todas as etapas deste exercício foram resolvidas de forma completa <u>no mesmo dia em que foram  apresentadas aos alunos</u> - **05/07/2021**. Isto pode ser verificado pelo histórico do arquivo: **[aqui.](https://github.com/FlipeFrontDev/CTD-Prog-Imperativa/commit/f16c698584e5285eddc05c3aa0ecd152056aa4ca#diff-5c6b342dd0810527be19f4571edd70b276253933595e2f8e23377cafe89d082d)**
 
 
 
