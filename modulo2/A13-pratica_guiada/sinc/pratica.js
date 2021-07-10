@@ -9,8 +9,3 @@ exports.quorum = class Aluno {
     this.addFaltas = () => {return faltas += 1;};
   }
 };
-
-/* let aluno1 = new Aluno('Felipe', 5, [10,10,10,10]);
-
-console.log(aluno1.calcularMedia());
-console.log(aluno1.faltas()); */
