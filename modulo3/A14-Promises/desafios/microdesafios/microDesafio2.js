@@ -2,8 +2,6 @@
 
 const fs = require('fs');
 
-/*Definindo variáveis que instanciam as Promisses a serem executadas de forma assíncrona - ou seja, fora da ordem em que foi escrita - fora do tempo de execução do programa*/
-
 /*Definindo variável file1 que instancia a Promisse que lerá o arquivo file.json*/
 
 let file1 = new Promise((resolve, reject) => {
@@ -28,7 +26,7 @@ let file3 = new Promise((resolve, reject) => {
 
     err ? reject(err) : resolve(JSON.parse(data3));})});
 
-/*Chamando o objeto Promisse com o método all, que executa as Promisses anteriores guardadas nas variáveis file1, file2 e file3 - de forma simultânea, e retorna seus êxitos ou possíveis falhas com métodos then e catch*/
+/*Chamando o objeto Promisse com o método all, que executa as Promisses anteriores*/
 
 Promise.all([file1, file2, file3])
   .then(data => {console.log(data);})
