@@ -1,4 +1,4 @@
-/*Exportando módulo como objeto quorum que contém classe Aluno*/
+/*Exportando classe Aluno*/
 
 exports.quorum = class Aluno {
 

@@ -1,4 +1,4 @@
-/*Importando módulos pratica que contém o objeto exportado quorum da classe Aluno e importando também o objeto literal listaAlunos que contém as instanciações de quorum - ou seja, os novos alunos com seus dados academicos*/
+/*Importando módulos pratica e listaAluno*/
 
 let modelo = require('./pratica');
 let lista = require('./listaAlunos');
@@ -14,7 +14,7 @@ let curso =
    faltasMax: 5, 
    listaEstudantes: lista.listaAlunos,
 
-   /*Atributo relatorio: contém função map, que percorre cada aluno da listaEstudantes(ou seja listaAlunos importada acima), verifica sua média e suas faltas, e retorna um novo array objeto com nome, média e situacao de cada aluno*/
+   /*Atributo relatorio: contém função map, retorna um novo array objeto com nome, média e situacao de cada aluno*/
 
    relatorio: function () {return this.listaEstudantes.map(aluno =>
                           
@@ -23,13 +23,13 @@ let curso =
                           
                                       return ({nome: aluno.nome, media: aluno.calcularMedia().toFixed(2), faltas: aluno.faltas, situacao: sit})})},
 
-  /*Atributo adicionar: contém método (função) que recebe 3 argumentos: nome, faltas e notas de um aluno, e instancia um novo objeto quorum (da Classe aluno), incluindo este objeto (novo aluno) no atributo listaEstudantes(objeto listaAlunos - modulo importado acima - que está no arquivo listaAlunos)*/
+  /*Atributo adicionar: contém método (função) que instancia um novo objeto quorum (da Classe aluno)*/
 
    adicionar: function(nome, faltas, notas) {this.listaEstudantes.push(new modelo.quorum(nome,faltas, notas)); return console.table(this.listaEstudantes)},
    
-  /*Atributo situacao: contém o método que recebe um argumento (nome) e usa o método de array "find" para retornar se o nome informado na consulta consta na lista de alunos guardando true ou false na variavel aluno*/
+  /*Atributo situacao: contém o método que usa o método de array "find" para retornar a situação de cada aluno conforme sua média e sua falta*/
 
-  /*Depois, retorna a situação de cada aluno conforme sua média e sua falta */
+  /*Depois,  */
 
    situacao: function(nome) {let aluno = this.listaEstudantes.find(item => {return item.nome == nome ? true : false});
                             

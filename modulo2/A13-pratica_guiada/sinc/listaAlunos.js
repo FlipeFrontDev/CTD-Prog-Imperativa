@@ -1,8 +1,8 @@
-/*Importando módulo prática que contém a classe Aluno e armazenando na constante modelo*/
+/*Importando módulo prática*/
 
 let modelo = require('./pratica');
 
-/*Exportando objeto literal listaAlunos que contem como itens, objetos quorum instanciados com valores que entrarão no método construtor*/
+/*Exportando objeto literal listaAlunos*/
 
 exports.listaAlunos = [ new modelo.quorum('Fernando', 4, [7,7,7,7]),
                         new modelo.quorum('Clarice', 4, [7,7,7,7]),
