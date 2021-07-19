@@ -2,13 +2,18 @@
 1) Crie uma função, que após 5 segundos, dobre o resultado do número passado como parâmetro. Essa função deverá retornar uma Promise. Use o setTimeOut como temporizador.
 */
 
+/*Definindo função da Promise que retorna o valor do argumento em dobro*/
+
 const dobraValor = async num => {
 
-  /* console.log("Processando..."); */
+  /* console.log("Processando..."); - comentado pois, nos exercicios 2 e 3, a função é usada como callback na função main abaixo*/
 
   const promise = await new Promise((resolve) => {setTimeout(resolve, 3000, num * 2);});
+ 
+ /* console.log(promise); - comentado pois, nos exercicios 2 e 3, a função é usada como callback na função main abaixo*/
 
- /* console.log(promise); */
+/*Retorna o valor da promise para ser recuperado na função main, nas chamadas em await retornadas pelo then*/
+
  return promise;
 
 }
@@ -23,13 +28,9 @@ const dobraValor = async num => {
 
 const main = async (func, num1, num2, num3) => {
 
-  let a, b, c, total;
-
   console.log('...processando:');
 
-  a = await func(num1).then(value => {return value});
-  b = await func(num2).then(value => {return value});
-  c = await func(num3).then(value => {return value});
+  let a = await func(num1),  b = await func(num2), c = await func(num3);
 
   total = `VALORES INFORMADOS: ${num1}, ${num2}, ${num3}
           \nSOMATÒRIO INFORMADO: ${num1 + num2 + num3}
