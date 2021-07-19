@@ -6,14 +6,7 @@ const dobraValor = async num => {
 
   /* console.log("Processando..."); */
 
-  const promise = await new Promise(
-    
-    (resolve) => {
-
-     setTimeout(resolve, 3000, num * 2);
-
-    }
-  );
+  const promise = await new Promise((resolve) => {setTimeout(resolve, 3000, num * 2);});
 
  /* console.log(promise); */
  return promise;
